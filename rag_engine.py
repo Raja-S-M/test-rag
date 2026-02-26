@@ -140,6 +140,6 @@ def query_rag(question: str) -> Dict:
     })
 
     return {
-        "answer": answer,
+        "result": answer,
         "sources": sources,
     }
